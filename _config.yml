@@ -9,7 +9,7 @@ title:               Mike Loll
 tagline:             'A collection of random tech related things.'
 url:                 http://mikeloll.github.io
 baseurl:             ''
-paginate:            5
+paginate:            2
 gems:                [ 'jekyll-paginate' ]
 
 # About/contact

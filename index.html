@@ -12,9 +12,12 @@ title: Home
       </a>
     </h1>
 
-    <span class="post-date">{{ post.date | date_to_string }}</span>
+    <div class="post-date">{{ post.date | date_to_string }}</div>
+    {% include tags.html %}
 
     {{ post.content }}
+
+    {% include tags.html %}
   </div>
   {% endfor %}
 </div>
