@@ -12,10 +12,22 @@
     color: #9a9a9a;
 }
 
+.post-meta {
+    margin-bottom: 10px;
+}
 .post-date {
     display: inline-block;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
+.post-tags {
+    float: right;
+}
+
+.tags {
+    margin-bottom: 0;
+}
 html {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
